@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: ahmetsyildirimpipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ahmetsyildirimpipelinesjavascriptdocker
+  template:
+    metadata:
+      labels:
+        app: ahmetsyildirimpipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: ahmetsyildirimpipelinesjavascriptdocker 
+          image: ahmetcontainerregistry.azurecr.io/ahmetsyildirimpipelinesjavascriptdocker
+          ports:
+          - containerPort: 8080
