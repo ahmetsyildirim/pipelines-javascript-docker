@@ -1,3 +1,7 @@
+# Important
+This repository is used as a part of a Microsoft Learn tutorial "Build and deploy to Azure Kubernetes Service with Azure Pipelines"
+https://learn.microsoft.com/en-us/azure/aks/devops-pipeline?tabs=cli&pivots=pipelines-yaml#code-try-1
+
 # Sample Docker and Kubernetes Node.JS app
 
 This code sample uses the Node.js web framework Express to create a basic web server that listens for HTTP requests on port 8080.
