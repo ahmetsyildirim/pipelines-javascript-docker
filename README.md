@@ -1,5 +1,6 @@
 # Important
-This repository is used as a part of a Microsoft Learn tutorial "Build and deploy to Azure Kubernetes Service with Azure Pipelines"
+This repository is used as a part of a Microsoft Learn tutorial "Build and deploy to Azure Kubernetes Service with Azure Pipelines".
+Please refer to the below training material in order to crate the required Azure resources and services.
 https://learn.microsoft.com/en-us/azure/aks/devops-pipeline?tabs=cli&pivots=pipelines-yaml#code-try-1
 
 # Sample Docker and Kubernetes Node.JS app
